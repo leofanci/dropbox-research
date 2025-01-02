@@ -17,7 +17,7 @@ The main function, `params_iteration`, takes two inputs:
 - `user_vec`: A vector of user names to identify separate users.
 - `theta_vec`: A vector of heterogeneous parameters. Each parameter is associated with a value in `user_vec`.
 
-The code takes approximately 17 hours to run.
+The code takes approximately 17 hours to run in the Yale Grace Cluster (24 CPUs, 4GB of memory).
 
 Once the running process is completed, a dataframe containing all the bootstrapping iterations for the optimization of each user is created. This will produce the `optimization_powell_m.csv` file, which can be used to run the codes in `results_pow.ipynp`. Note that `user_vec` and `theta_vec` also need to be set in `results_pow.ipynp`.
 

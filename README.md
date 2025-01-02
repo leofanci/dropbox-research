@@ -4,7 +4,7 @@ This exercise simulates user behavior in the cloud service, exploring the best d
 
 ### File Descriptions
 
-- $functions.py$: python file containing all the functions used for the estimation process.
-- $powell_multi.ipynb$: jupyter notebook that imports the functions and performs the parallel estimations.
-- $optimization_pow_m.csv$: dataset containing the estimation results for three users. It consists of 300 rows (3 users, with 100 estimations each for bootstrapping purposes).
-- $results_pow.ipynb$: jupyter notebook that plots the results.
+- **functions.py**: python file containing all the functions used for the estimation process.
+- **powell_multi.ipynb**: jupyter notebook that imports the functions and performs the parallel estimations.
+- **optimization_pow_m.csv**: dataset containing the estimation results for three users. It consists of 300 rows (3 users, with 100 estimations each for bootstrapping purposes).
+- **results_pow.ipynb**: jupyter notebook that plots the results.

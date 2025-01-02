@@ -24,6 +24,6 @@ Once the running process is completed, a dataframe containing all the bootstrapp
 You can modify the problem settings by changing certain values in the `params_iteration` function found in `functions.py`. Modifiable aspects include:
 - The specifics of the problem, such as the state and decision variable grids as well as the shocks.
 - Homogeneous parameters.
-- Other main settings, such as price `P`, number of bootstrap iterations, data points generated in the data generation function (currently set at `N=1000`) etc.
+- Other main settings, such as price `P`, number of bootstrap iterations, data points generated in the data generation function (currently set at `N=1000`), etc.
 
 
